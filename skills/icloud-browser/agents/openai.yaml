@@ -1,0 +1,7 @@
+interface:
+  display_name: "iCloud Browser"
+  short_description: "Use iCloud apps through the cloud browser"
+  icon_small: "./assets/apple-mail.png"
+  icon_large: "./assets/apple-mail.png"
+  brand_color: "#1686F7"
+  default_prompt: "Use $icloud-browser to check my iCloud Mail and Calendar."
