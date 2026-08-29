@@ -14,7 +14,7 @@ A Codex/ChatGPT skill that opens iCloud web apps in the persistent cloud browser
 
 Paste this prompt into Codex, ChatGPT Work, Claude Code, or another agent with GitHub, shell, or plugin access:
 
-```text
+```prompt
 Download and install the iCloud Browser plugin from:
 https://github.com/eymndev/ChatGPT-iCloud-Skill-with-Browser
 
@@ -28,6 +28,7 @@ sessions. Do not configure mcp-icloud, IMAP/SMTP credentials, a local Mac servic
 a rented server. This skill uses the client's persistent cloud browser and should ask
 me to sign in to iCloud securely only when Apple requires it.
 ```
+(Note: in ChatGPT recommended $skill-installer skill)
 
 ## Manual install
 
