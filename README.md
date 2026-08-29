@@ -10,7 +10,26 @@
 
 A Codex/ChatGPT skill that opens iCloud web apps in the persistent cloud browser and reuses the signed-in session. It supports Mail, Calendar, Photos, Drive, Notes, Contacts, Reminders, and other capabilities exposed by iCloud.com without a local MCP server, rented server, or always-on Mac.
 
-## Install
+## Install with an AI agent
+
+Paste this prompt into Codex, ChatGPT Work, Claude Code, or another agent with GitHub, shell, or plugin access:
+
+```text
+Download and install the iCloud Browser plugin from:
+https://github.com/eymndev/ChatGPT-iCloud-Skill-with-Browser
+
+If the client supports personal or Agent Plugins, install the repository root using
+.codex-plugin/plugin.json. If it supports only standalone skills, install the
+skills/icloud-browser directory instead. Preserve agents/openai.yaml and all assets,
+including the icon.
+
+Verify that the installed skill is named "icloud-browser" and is available in future
+sessions. Do not configure mcp-icloud, IMAP/SMTP credentials, a local Mac service, or
+a rented server. This skill uses the client's persistent cloud browser and should ask
+me to sign in to iCloud securely only when Apple requires it.
+```
+
+## Manual install
 
 Install this repository as a personal plugin, or upload the `skills/icloud-browser` folder as a skill in ChatGPT Work.
 
