@@ -5,7 +5,7 @@
 <h1 align="center">iCloud Browser for ChatGPT</h1>
 
 <p align="center">
-  <img src="assets/ai-generated.svg" height="32" alt="AI Generated">
+  <img src="assets/ai-generated.svg" height="128" alt="AI Generated">
 </p>
 
 A Codex/ChatGPT skill that opens iCloud web apps in the persistent cloud browser and reuses the signed-in session. It supports Mail, Calendar, Photos, Drive, Notes, Contacts, Reminders, and other capabilities exposed by iCloud.com without a local MCP server, rented server, or always-on Mac.
