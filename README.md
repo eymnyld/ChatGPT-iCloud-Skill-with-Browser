@@ -16,7 +16,7 @@ Paste this prompt into Codex, ChatGPT Work, Claude Code, or another agent with G
 
 ```prompt
 Download and install the iCloud Browser plugin from:
-https://github.com/eymndev/ChatGPT-iCloud-Skill-with-Browser
+https://github.com/eymnyld/ChatGPT-iCloud-Skill-with-Browser
 
 If the client supports personal or Agent Plugins, install the repository root using
 .codex-plugin/plugin.json. If it supports only standalone skills, install the
